@@ -36,7 +36,7 @@
 }
 
 -(void)testCreateCharacterFromDetailJson
-{
+{//
     Character *testGuy1 = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
     STAssertNotNil(testGuy1, @"Could not create character from detail json");
     
